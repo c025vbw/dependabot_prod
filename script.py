@@ -14,3 +14,4 @@ if __name__ == "__main__":
     print("Array:", arr)
     print("Data type:", arr.dtype)
     print("Sum of elements:", total)
+    #
