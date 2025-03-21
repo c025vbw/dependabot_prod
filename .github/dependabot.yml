@@ -1,0 +1,9 @@
+version: 2
+updates:
+  - package-ecosystem: "pip" # Pythonの依存関係を管理
+    directory: "/"           # requirements.txt が存在するディレクトリ
+    schedule:
+      interval: "daily"      # 毎日更新をチェック
+    ignore:
+      - dependency-name: "numpy" # 必要に応じて特定の依存関係を無視
+        versions: ["1.0.0"]  # 無視するバージョン範囲を指定
